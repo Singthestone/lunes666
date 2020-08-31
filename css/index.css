@@ -7,13 +7,7 @@
 /* *********************************** */
 
 html {
-    font-family: Helvetica, sans-serif;
     padding: 10px 20px 0 20px;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
 }
 
 nav {
@@ -23,6 +17,11 @@ nav {
     height: 75px;
     background: rgb(209, 207, 207);
     align-items: center;
+    font-size: larger;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 p {
@@ -37,4 +36,5 @@ p {
 
 footer {
     text-align: center;
+    font-size: 10px;
 }
